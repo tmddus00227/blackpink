@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+header{
+  position:fixed;
+  top:0px;
+  width:100%;height:70px;
+  z-index:1000;
+  transition:0.3s;
+  /* background:#fff; */
+}
+header h1{
+  padding:10px 0px 10px 5%; 
+}
+header > h1 > a img{
+  width:300px;
+}
+
+header #top{
+  width:700px;
+  margin:0px auto;
+}
+header .gnb{
+  display:flex;
+  justify-content:space-around;
+}
+header .gnb a{
+  font-size:1.3rem;
+  color:#F7A9BD;
+  font-weight:bold;
+  position: absolute;
+  bottom:10px;
+}
+
+/* 메인 */
+main{
+  overflow:hidden;
+  clear:both;
+}
+
+#teaser{
+  height:100vh;
+  background-color:rgb(48, 48, 48);
+  overflow:hidden;
+}
+#blackpink{
+  width:1300px;height:800px;
+  margin:0px auto;
+}
+#profile{
+  width:1300px;height:800px;
+  margin:0px auto;
+  border:1px solid #000;
+}
+#album{
+  width:1300px;height:800px;
+  margin:0px auto;
+}
+#gallery{
+  width:1300px;height:1200px;
+  margin:0px auto;
+}
+#notice{
+  width:1300px;height:870px;
+  margin:0px auto;
+}
+
+.f_inner{
+  height:160px;
+  background:#343434;
+}
+footer{
+  width:1300px;height:150px;
+  margin:0px auto;
+}
+
