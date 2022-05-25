@@ -81,6 +81,18 @@
 }
 .con02,.con03,.con04{}
 
+/* BANNER */
+#banner{
+  width:100%;
+  background-color:#ecede9;
+  margin:30px 0px;
+}
+.b_inner{
+  width:1300px;
+  margin:0px auto;
+  text-align:right;
+}
+
 /* ALBUM */
 #album{position:relative;}
 #album h2{
