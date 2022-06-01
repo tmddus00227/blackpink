@@ -54,7 +54,7 @@
   content:"";
   display: block;
   width:70px;height:2px;
-  background-color: #333;
+  background-color:#333;
   position: absolute;
   top:6px;left:40px;
   display:none;
@@ -74,12 +74,104 @@
 }
 
 /* PROFILE */
+#profile{position:relative;}
 #profile h2{display:none;}
-.p_right > li:nth-child(2){
-  font-size:30px;
+/* PROFILE deco */
+.deco > .d_more{
+  cursor:pointer;
+  font-weight:bold;
+  font-size:13px;
+  position:absolute;
+  left:225px;top:460px;
+}
+.deco > .d_more:hover:after{
+  display:block;
+  transition:0.5s;
+}
+.deco > .d_more::after{
+  content:"";
+  display: block;
+  width:70px;height:2px;
+  background-color: #333;
+  position: absolute;
+  top:6px;left:40px;
+  display:none;
+}
+.deco > .d_more{right:0px;}
+
+/* PROFILE 콘텐츠 */
+.p_con > ul{
+  height:500px;
+  position:relative;
+  padding:30px;
+  box-sizing:border-box;
+  margin:90px 60px 0px 0px;
+  float:right;
+}
+.p_con > ul > li{margin-bottom:25px;} 
+.p_con > ul > li > a{
+  width:13px;
+  font-size:18px;
+  background-color:#fff;
+  color:#333;
+  border:1px solid #333;
+  padding:3px 10px;
+} 
+.p_act{
+  background-color:#333 !important;
+  color:#fff !important;
+}
+.con01,.con02,.con03,.con04{
+  position:absolute;
+  right:120px;top:30px;
+  display:none;
+}
+.member{
+  margin-top:10px;
+  display:flex;
+}
+
+.p_left{
+  position:absolute;
+  left:-900px;top:150px;
+}
+.p_t01{
+  font-size:14px;
+  padding-bottom:10px;
+}
+.p_t02{
+  font-size:40px;
   font-weight:bold;
 }
-.con02,.con03,.con04{}
+.p_left > .p_sns img{
+  width:25px;
+  object-fit:cover;
+  position:absolute;
+  right:115px;top:30px;
+}
+.p_t03{
+  font-size:14px;
+  line-height:30px;
+  padding:20px 0px;
+}
+.point{
+  font-weight:bold;
+  color:#E5558D;
+}
+
+.p_right > .p_bg{
+  width:450px;height:600px;
+  background-color:#E5558D;
+  position:absolute;
+  right:-35px;top:-10px;
+}
+.p_right > .p_photo img{
+  width:450px;height:600px;
+  object-fit:cover;
+  position:absolute;
+  right:-10px;
+}
+
 
 /* BANNER */
 #banner{
@@ -90,7 +182,6 @@
 .b_inner{
   width:1300px;
   margin:0px auto;
-  text-align:right;
 }
 
 /* ALBUM */
