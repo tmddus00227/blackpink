@@ -6,17 +6,19 @@
 } */
 
 /* BLACKPINK */
-#blackpink{position:relative;}
+#blackpink{
+  position:relative;
+}
 #blackpink h2{display:none;}
 #blackpink .b_left{float:left;}
 .b_left li:first-child{
-  width:600px;height:400px;
+  width:650px;height:430px;
   background-color:#F7A9BD;
   position:absolute;
   top:20%;left:7%;
 }
 .b_left li:nth-child(2){
-  width:600px;height:400px;
+  width:650px;height:400px;
   position:absolute;
   top:23%;left:5%;
 }
@@ -25,7 +27,7 @@
 #blackpink .b_right{
   float:right;
   position:absolute;
-  right:11%;top:26%;
+  right:7%;top:26%;
 }
 .b_right li:first-child{
   font-size:14px;
@@ -63,7 +65,7 @@
 
 .b_sns > ul{
   position:absolute;
-  bottom:34%;right:27%;
+  bottom:34%;right:22.5%;
   width:170px;
   display:flex;
   justify-content:space-around;
@@ -74,7 +76,9 @@
 }
 
 /* PROFILE */
-#profile{position:relative;}
+#profile{
+  position:relative;
+}
 #profile h2{display:none;}
 /* PROFILE deco */
 .deco > .d_more{
@@ -82,7 +86,7 @@
   font-weight:bold;
   font-size:13px;
   position:absolute;
-  left:225px;top:460px;
+  left:180px;top:620px;
 }
 .deco > .d_more:hover:after{
   display:block;
@@ -116,6 +120,7 @@
   color:#333;
   border:1px solid #333;
   padding:3px 10px;
+  margin-right:35px;
 } 
 .p_act{
   background-color:#333 !important;
@@ -133,7 +138,7 @@
 
 .p_left{
   position:absolute;
-  left:-900px;top:150px;
+  left:-950px;top:300px;
 }
 .p_t01{
   font-size:14px;
@@ -163,15 +168,16 @@
   width:450px;height:600px;
   background-color:#E5558D;
   position:absolute;
-  right:-35px;top:-10px;
+  right:0px;top:-10px;
+}
+.p_right > .p_photo{
+  position:absolute;
+  right:20px;top:10px;
 }
 .p_right > .p_photo img{
   width:450px;height:600px;
   object-fit:cover;
-  position:absolute;
-  right:-10px;
 }
-
 
 /* BANNER */
 #banner{
@@ -404,7 +410,6 @@
   padding:10px 0px;
   font-size:16px;
 }
-.n_txt02{}
 
 .notice input{
   position:absolute;
