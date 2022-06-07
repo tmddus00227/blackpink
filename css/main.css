@@ -1,10 +1,5 @@
 @charset "utf-8";
 
-/* h1{
-  color:#E5558D;
-  color:#F7A9BD;
-} */
-
 /* BLACKPINK */
 #blackpink{
   position:relative;
@@ -86,7 +81,7 @@
   font-weight:bold;
   font-size:13px;
   position:absolute;
-  left:180px;top:620px;
+  left:170px;top:610px;
 }
 .deco > .d_more:hover:after{
   display:block;
